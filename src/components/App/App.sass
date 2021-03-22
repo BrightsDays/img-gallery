@@ -1,0 +1,56 @@
+ul
+  display: flex
+  flex-wrap: wrap
+  width: 860px
+  max-width: 100%
+  margin: 0 auto
+  padding: 0
+  gap: 10px
+  list-style: none
+
+li
+  position: relative
+  height: 20vh
+  flex-grow: 1
+  background-color: black
+
+  &:hover img
+    opacity: 0.6
+
+li:last-child
+  flex-grow: 10
+
+img
+  height: 100%
+  min-width: 100%
+  object-fit: cover
+  vertical-align: bottom
+  transition: opacity 1s
+
+button
+  background: none
+  border: none
+  color: red
+  position: absolute
+  top: 10px
+  right: 10px
+  cursor: pointer
+  color: white
+  opacity: 0.8
+  z-index: 1
+
+@media (max-height: 480px)
+  li
+    height: 80vh
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px)
+  ul
+    flex-direction: row
+
+  li
+    height: auto
+    width: 100%
+
+  img
+    width: 100%
+    min-width: 0
