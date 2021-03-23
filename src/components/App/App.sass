@@ -1,56 +1,80 @@
-ul
-  display: flex
-  flex-wrap: wrap
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  font-family: 'Roboto', sans-serif
+  box-sizing: border-box
+
+.gallery
   width: 860px
   max-width: 100%
   margin: 0 auto
+
+.gallery-header
+  display: flex
+  justify-content: space-between
+  padding: 20px 0
+  gap: 20px
+
+  &__input
+    width: 100%
+
+.gallery-list
+  display: flex
+  flex-wrap: wrap
   padding: 0
   gap: 10px
   list-style: none
 
-li
-  position: relative
-  height: 20vh
-  flex-grow: 1
-  background-color: black
+  &__item
+    position: relative
+    height: 20vh
+    flex-grow: 1
+    background-color: black
 
-  &:hover img
-    opacity: 0.6
+    &:hover .gallery-list__image
+      opacity: 0.6
 
-li:last-child
-  flex-grow: 10
+    &:last-child
+      flex-grow: 10
 
-img
-  height: 100%
-  min-width: 100%
-  object-fit: cover
-  vertical-align: bottom
-  transition: opacity 1s
+  &__close
+    background: none
+    border: none
+    color: red
+    position: absolute
+    top: 10px
+    right: 10px
+    cursor: pointer
+    color: white
+    opacity: 0.8
+    z-index: 1
 
-button
-  background: none
-  border: none
-  color: red
-  position: absolute
-  top: 10px
-  right: 10px
-  cursor: pointer
-  color: white
-  opacity: 0.8
-  z-index: 1
+  &__image
+    height: 100%
+    min-width: 100%
+    object-fit: cover
+    vertical-align: bottom
+    transition: opacity 1s
+
+@media (max-width: 880px)
+  .gallery
+    padding: 0 10px
 
 @media (max-height: 480px)
-  li
-    height: 80vh
+  .gallery-list
+    &__item
+      height: 80vh
 
 @media (max-aspect-ratio: 1/1) and (max-width: 480px)
-  ul
+  .gallery-list
     flex-direction: row
 
-  li
-    height: auto
-    width: 100%
+    &__item
+      height: auto
+      width: 100%
 
-  img
-    width: 100%
-    min-width: 0
+    &__image
+      width: 100%
+      min-width: 0
