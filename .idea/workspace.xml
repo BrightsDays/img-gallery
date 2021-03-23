@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9567b241-4368-4383-aba1-c41e8fa8de3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web Projects\img-gallery\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="testLink.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/testLink/testLink.js" working-dir="$PROJECT_DIR$/src/components/testLink">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -44,9 +54,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.testLink.js" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.testLink.js" />
       </list>
     </recent_temporary>
   </component>
@@ -58,7 +73,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616489550351</updated>
-      <workItem from="1616489551599" duration="7585000" />
+      <workItem from="1616489551599" duration="15727000" />
+      <workItem from="1616514294326" duration="205000" />
+      <workItem from="1616514600964" duration="828000" />
     </task>
     <servers />
   </component>
