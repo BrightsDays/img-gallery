@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9567b241-4368-4383-aba1-c41e8fa8de3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DrugDrop/DrugAndDrop.js" afterDir="false" />
+    <list default="true" id="9567b241-4368-4383-aba1-c41e8fa8de3e" name="Default Changelist" comment="cross FF/IE, load img/json">
+      <change beforePath="$PROJECT_DIR$/.idea/img-gallery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/img-gallery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/placeholder.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1q9QulYIBPw7YQdL6JhrtlSNJEa" />
   <component name="ProjectViewState">
@@ -30,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nan-landing-page" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,11 +39,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web Projects\img-gallery\src\components" />
+      <recent name="D:\Web Projects\nan-landing-page\src\components\Header\assets\backgroung" />
+      <recent name="D:\Web Projects\nan-landing-page\src\components\Promo\assets\background" />
+      <recent name="D:\Web Projects\nan-landing-page\src\components\Promo\assets\img" />
+      <recent name="D:\Web Projects\nan-landing-page\src\components\Header\assets\img" />
+      <recent name="D:\Web Projects\nan-landing-page\src\components\App\assets\Background" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -83,7 +89,13 @@
       <workItem from="1616514600964" duration="961000" />
       <workItem from="1616581211004" duration="2545000" />
       <workItem from="1616594074183" duration="1372000" />
-      <workItem from="1616662645052" duration="11274000" />
+      <workItem from="1616662645052" duration="13494000" />
+      <workItem from="1616740816256" duration="18135000" />
+      <workItem from="1616759313273" duration="13841000" />
+      <workItem from="1616824434560" duration="6844000" />
+      <workItem from="1616915001327" duration="692000" />
+      <workItem from="1616918278460" duration="19884000" />
+      <workItem from="1616996906738" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="check url, IE">
       <created>1616515516773</created>
@@ -92,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616515516773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cross FF/IE, load img/json">
+      <created>1616675892260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616675892260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +119,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check url, IE" />
-    <option name="LAST_COMMIT_MESSAGE" value="check url, IE" />
+    <MESSAGE value="cross FF/IE, load img/json" />
+    <option name="LAST_COMMIT_MESSAGE" value="cross FF/IE, load img/json" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
