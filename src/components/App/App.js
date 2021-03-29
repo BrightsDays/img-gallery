@@ -5,6 +5,7 @@ import './App.sass';
 const Main = () => {
   const [names, setNames] = useState(null);
   const [url, setUrl] = useState(null);
+  const [loadText, setLoadText] = useState('Загрузить изображение');
 
   const LoadList = ({ data }) => {
       return(
@@ -47,6 +48,12 @@ const Main = () => {
       }
   };
 
+  const onDrop = (e) => {
+      e.preventDefault();
+      let files = [...e.dataTransfer.files]
+      setLoadText(`${files[0].name} загружен, но добавить его в галерею без сервера не получится`)
+  }
+
   return(
       <div className="gallery">
           <div className="gallery-header">
@@ -63,6 +70,11 @@ const Main = () => {
                           addItem(url);
                       }}>Загрузить</Button>
           </div>
+          <div className="gallery-drop"
+               onDragStart={e => e.preventDefault()}
+               onDragLeave={e => e.preventDefault()}
+               onDragOver={e => e.preventDefault()}
+               onDrop={e => onDrop(e)}>{loadText}</div>
           <LoadList data={names}/>
       </div>
   );
