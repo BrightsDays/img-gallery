@@ -30,7 +30,6 @@ const Main = () => {
           const img = new Image();
           img.src = source;
           img.onload = () => {
-              console.log([{'url': source}])
               !names ?
               setNames([{'url': source}]) :
               setNames([{'url': source}].concat(names));
@@ -48,10 +47,20 @@ const Main = () => {
       }
   };
 
-  const onDrop = (e) => {
-      e.preventDefault();
-      let files = [...e.dataTransfer.files]
-      setLoadText(`${files[0].name} загружен, но добавить его в галерею без сервера не получится`)
+  const onDrop = e => {
+      let files = e.target.files;
+      let reader = new FileReader();
+
+      reader.onload = r => {
+          !names ?
+          setNames([{'url': r.target.result}]) :
+          setNames([{'url': r.target.result}].concat(names))
+          r.target.value = '';
+      };
+
+      if (files[0]) {
+          reader.readAsDataURL(files[0]);
+      }
   }
 
   return(
@@ -70,11 +79,12 @@ const Main = () => {
                           addItem(url);
                       }}>Загрузить</Button>
           </div>
-          <div className="gallery-drop"
-               onDragStart={e => e.preventDefault()}
-               onDragLeave={e => e.preventDefault()}
-               onDragOver={e => e.preventDefault()}
-               onDrop={e => onDrop(e)}>{loadText}</div>
+          <div className="gallery-drop">
+              <p className="gallery-drop__info">или перетащите файл сюда</p>
+              <input className="gallery-drop__input"
+                     type="file"
+                     onChange={e => onDrop(e)} />
+          </div>
           <LoadList data={names}/>
       </div>
   );

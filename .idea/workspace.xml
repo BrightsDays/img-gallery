@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9567b241-4368-4383-aba1-c41e8fa8de3e" name="Default Changelist" comment="cross FF/IE, load img/json">
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data-visualisation/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data-visualisation/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../data-visualisation/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-visualisation/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/img-gallery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/img-gallery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9567b241-4368-4383-aba1-c41e8fa8de3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +101,7 @@
       <workItem from="1616996906738" duration="2930000" />
       <workItem from="1617002250797" duration="666000" />
       <workItem from="1617002936851" duration="7276000" />
-      <workItem from="1617010351747" duration="3826000" />
+      <workItem from="1617010351747" duration="9220000" />
     </task>
     <task id="LOCAL-00001" summary="check url, IE">
       <created>1616515516773</created>
@@ -132,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616675892260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="drop files">
+      <created>1617014486231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617014486231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check url, IE" />
     <MESSAGE value="cross FF/IE, load img/json" />
-    <option name="LAST_COMMIT_MESSAGE" value="cross FF/IE, load img/json" />
+    <MESSAGE value="drop files" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
