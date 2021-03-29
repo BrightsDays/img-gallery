@@ -5,7 +5,6 @@ import './App.sass';
 const Main = () => {
   const [names, setNames] = useState(null);
   const [url, setUrl] = useState(null);
-  const [loadText, setLoadText] = useState('Загрузить изображение');
 
   const LoadList = ({ data }) => {
       return(
@@ -25,7 +24,7 @@ const Main = () => {
       );
   };
 
-  const addItem = source => {
+  const addItems = source => {
       if (source && source.match(/\.(jpe?g|png|gif|bmp)$/i)) {
           const img = new Image();
           img.src = source;
@@ -63,6 +62,8 @@ const Main = () => {
       }
   }
 
+  if (!names) addItems('https://don16obqbay2c.cloudfront.net/frontend-test-task/gallery-images.json');
+
   return(
       <div className="gallery">
           <div className="gallery-header">
@@ -76,7 +77,7 @@ const Main = () => {
                       component="span"
                       onClick={e => {
                           e.preventDefault();
-                          addItem(url);
+                          addItems(url);
                       }}>Загрузить</Button>
           </div>
           <div className="gallery-drop">
